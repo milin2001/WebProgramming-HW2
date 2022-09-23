@@ -1,0 +1,150 @@
+/* This css code is for HW2
+Written by: Milin Gujrati*/
+/*Below CSS code is for program1.html file*/
+Body.homepage {
+  background-image: url("page1_background.jpg");
+   }
+  .head{
+	  text-align: center;
+	  color: black;
+	  font-family: sans-serif;
+  }
+  .write{
+	  font-size: large;
+	  font-weight: bold;
+  }
+ul.a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+}
+
+li.aa {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ a:hover{
+	background-color: black;
+	color: white;
+}
+.salad  {
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 450px;
+	 height: 300px;
+}
+.row_logo {
+  display: flex;
+}
+
+
+.column_logo {
+  flex: 50%;
+  padding: 15px;
+  width: 150px;
+  height: 300px;
+}
+
+.next_page{
+	color: green;
+	font-family: Fantasy;
+}
+/*Below CSS code is msotly used in recipe.html file*/
+body.otherpage{
+background-color: #FFCC00;
+}
+.header, caption{
+	text-align:center;
+	background: #F0F0F0;
+	color: #A4A400;
+	font-family: "Century Gothic";
+	font-weight: bolder;
+}
+.content{
+	font-family: Georgia;
+	color: #000000;
+}
+
+ul.bb{
+	list-style-type: disc;
+}
+ul.b2{
+	list-style-type: number;
+}
+/* Recipe.html table styling*/
+.myTables {
+	background-color: #CC9933;
+	border: 2px solid #FFFFFF;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+.myTables th{
+	background-color: #003366;
+	color: #FFFFFF;
+	text-align: center;
+}
+.myTables td, .myTables th{
+	cellpadding: 5px;
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF
+}
+/* Recipe.html navigation bar styling*/
+.myNav {
+	background-color: #A4A400;
+	border-collapse:collapse;
+}
+.myNav td{
+	background-color:#003366;
+}
+/*Below CSS is for third webpage*/
+Body.lemonpie {
+  background-color: #D3D3D3;
+   }
+
+.header1{
+	text-align:left;
+	background: none;
+	color: Green;
+	font-family: Sans;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+.content1{
+	font-family: Sans;
+	color: blue;
+}
+hr { 	
+	display: block; 
+	margin-before: 0.0em; 
+	margin-after: 0.0em; 
+	margin-start: auto; 
+	margin-end: auto; 
+	overflow: hidden;
+	border-style: dash ; 
+	border-width: 2px;
+	border-color: black;
+}
+.heading1{
+	text-align:left;
+	background: white;
+	color: Green;
+	font-family: Sans;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+ul.bb1{
+	list-style-type: square;
+}
+ul.bb2{
+	list-style-type: circle;
+}
